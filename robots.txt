@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /obrigado.html
+Allow: /
+
+Sitemap: https://metropolitanBy.ezteccorretor.com.br/sitemap.xml

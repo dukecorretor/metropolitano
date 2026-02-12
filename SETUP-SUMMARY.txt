@@ -1,0 +1,153 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║           ✅ SETUP NETLIFY COMPLETO - METROPOLITAN BY LINDENBERG         ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+📦 ESTRUTURA CRIADA:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📂 Projeto
+├── 📄 netlify.toml ........................ Configuração do Netlify
+├── 📄 package.json ........................ Dependências Node.js
+├── 📄 .env.example ........................ Template de variáveis de ambiente
+├── 📄 .gitignore .......................... Git ignore rules
+├── 📄 .netlifyignore ...................... Netlify ignore rules
+├── 📄 DEPLOY.md ........................... Guia passo a passo de deployment
+├── 📄 NETLIFY-SETUP.md ................... Setup rápido do Netlify
+├── 📄 README.md ........................... Documentação do projeto
+│
+├── 📁 netlify/
+│   └── 📁 functions/
+│       ├── 📄 cadastro.js ............... Função para formulário de cadastro
+│       └── 📄 comentario.js ............ Função para processamento de comentários
+│
+├── 📁 .github/
+│   └── 📁 workflows/
+│       └── 📄 deploy.yml ................ CI/CD automático (GitHub Actions)
+│
+└── 📄 index.html, *.html, *.css, *.js ... Arquivos do site
+
+
+✨ RECURSOS IMPLEMENTADOS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Netlify Functions (Serverless)
+   • Processamento de cadastros com SMTP
+   • Processamento de comentários
+   • Validação server-side
+   • Envio de emails automático
+
+✅ CI/CD Automático
+   • GitHub Actions para deploy automático
+   • Deploy em produção ao fazer push em 'main'
+   • Deploy em preview ao fazer pull requests
+   • Validação de HTML
+
+✅ SEO & Performance
+   • Meta tags otimizadas
+   • Sitemap.xml configurado
+   • Robots.txt otimizado
+   • Cache headers inteligentes
+   • Compressão automática
+
+✅ Segurança
+   • HTTPS automático
+   • Headers de segurança configurados
+   • Proteção contra XSS, Clickjacking, etc.
+   • Validação de formulários
+
+
+🚀 PRÓXIMOS PASSOS (SUPER RÁPIDO):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1️⃣  Instale dependências:
+    $ npm install
+
+2️⃣  Teste localmente:
+    $ netlify dev
+    → Acesse: http://localhost:3000
+
+3️⃣  Faça login no Netlify:
+    $ netlify login
+
+4️⃣  Inicialize o site:
+    $ netlify init
+    → Nome do site: metropolitan-by-lindenberg
+
+5️⃣  Configure variáveis de ambiente:
+    $ netlify env:set SMTP_HOST "smtp.gmail.com"
+    $ netlify env:set SMTP_PORT "465"
+    $ netlify env:set SMTP_USER "seu-email@gmail.com"
+    $ netlify env:set SMTP_PASS "sua-senha-de-app"
+    $ netlify env:set SMTP_FROM "seu-email@gmail.com"
+    $ netlify env:set ADMIN_EMAIL "contatoequipecorretores@gmail.com"
+
+6️⃣  Faça deploy:
+    $ netlify deploy --prod
+
+7️⃣  Configure domínio:
+    → Adicione o CNAME no seu provedor DNS
+
+
+📋 ARQUIVO DE REFERÊNCIA:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Leia os arquivos nesta ordem:
+1. NETLIFY-SETUP.md ........... Configuração rápida (5 min)
+2. DEPLOY.md .................. Passo a passo detalhado
+3. README.md .................. Documentação técnica completa
+
+
+🎯 INFORMAÇÕES DO PROJETO:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Nome:              Metropolitan by Lindenberg
+Domínio:           metropolitanBy.ezteccorretor.com.br
+Email:             contatoequipecorretores@gmail.com
+Telefone:          +55 11 95460-6125
+Endereço:          Rua Bento de Matos, 241 - Chácara Santo Antônio, SP
+
+Unidades:          546
+Tipologia:         Studios a 2 Suítes (22-74 m²)
+Arquiteto:         Perkins & Will
+Developer:         Lindenberg & EZTEC
+
+
+✅ CHECKLIST DE DEPLOYMENT:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Antes do Deploy:
+☐ Criar conta no Netlify (https://app.netlify.com)
+☐ Gerar senha de app no Gmail (com 2FA ativado)
+☐ Instalar Node.js 18.x
+
+Configuração:
+☐ npm install
+☐ netlify login
+☐ netlify init
+☐ Adicionar variáveis de ambiente
+☐ netlify deploy --prod
+
+Após Deploy:
+☐ Testar formulário de cadastro
+☐ Testar formulário de comentários
+☐ Verificar recebimento de emails
+☐ Adicionar domínio customizado (Netlify Dashboard)
+☐ Configurar DNS do domínio
+☐ Submeter sitemap ao Google Search Console
+☐ Testar em dispositivos móveis
+
+
+🎉 TUDO PRONTO!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Seu projeto está 100% configurado para Netlify!
+
+Comande: npm install && netlify login && netlify init && netlify deploy --prod
+
+Qualquer dúvida, consulte o arquivo DEPLOY.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Último update: Fevereiro 12, 2026

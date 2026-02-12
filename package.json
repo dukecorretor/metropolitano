@@ -1,0 +1,31 @@
+{
+  "name": "metropolitan-by-lindenberg",
+  "version": "1.0.0",
+  "description": "Metropolitan by Lindenberg - Residencial de luxo, Lindenberg & EZTEC",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build complete'",
+    "dev": "netlify dev",
+    "functions:build": "netlify functions:build",
+    "functions:invoke": "netlify functions:invoke"
+  },
+  "keywords": [
+    "metropolitan",
+    "lindenberg",
+    "eztec",
+    "residencial",
+    "imóvel",
+    "apartamento"
+  ],
+  "author": "Metropolitan by Lindenberg",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.10.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
